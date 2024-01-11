@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>APPLICATION FORM</h1>
+    <form action="" class="form">
+        <!-- Fieldset -->
+        <fieldset class="field">
+            <!-- legend -->
+        <legend class="legend">All fields are required!</legend>
+
+        <!-- text input and label -->
+        <label for="name" class="name">Full name</label>
+        <input type="text">
+
+        <!-- password -->
+        <label for="password">Password</label>
+        <input type="password">
+        <br>
+
+        <!-- radio button -->
+        <p><h4>Type of training</h4></p>
+        <input type="radio" id="full" name="type" value="full" checked>
+        <label for="QA/QE">Full time</label>
+
+        <input type="radio" id="part" name="cohort" value="part">
+        <label for="part">Part Time</label>
+
+        <!-- check box -->
+        <p><h4>Languages</h4></p>
+        <input type="checkbox">
+        <label for="checkbox">Javascript</label>
+
+        <input type="checkbox">
+        <label for="checkbox">React</label><br>
+
+                <!-- dropdown menu -->
+        <div class="uni">
+            <h4>university/ College</h4>
+            <select name="uni" id="uni">
+                <option value="DeKUT"></option>
+                <option value="JKUAT"></option>
+                <option value="KU"></option>
+                <option value="UON"></option>
+                <option value="Kirinyaga"></option>
+                <option value="Karatina"></option>
+             </select>
+        </div><br>
+
+        <!-- Textarea -->
+        <textarea name="whyteach2give" id="" cols="20" rows="5" class="txtarea">Why teach2give?</textarea><br>
+        <button>Submit</button><br>
+
+        
+
+        </fieldset>
+    </form>
+
+    </div>
+</body>
+</html>
